@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./иконка/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Restaurant</title>
+</head>
+
+<body class="bg-dark">
+
+    <header class="header mt-5">
+        <div class="container header__container">
+            <div class="row">
+
+                <div class="d-flex">
+
+
+                    <button class="btn text-light" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Korzin</button>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Korzina</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body" id="canvas">
+                            
+                        </div>
+                    </div>
+
+
+                    <span class="icoon"><i class="fa-solid fa-burger text-light mt-3"></i> <b
+                            class="text-light ms-2">Tasty</b></span>
+
+                    <ul class="header_ul">
+                        <li class="header_li ms-5">
+                            <a class="header_li-a" href="#">Home</a>
+                        </li>
+                        <li class="header_li ms-5">
+                            <a class="header_li-a" href="#">About</a>
+                        </li>
+                        <li class="header_li ms-5">
+                            <a class="header_li-a" href="#">Menu</a>
+                        </li>
+                        <li class="header_li ms-5">
+                            <a class="header_li-a" href="#">New</a>
+                        </li>
+                        <li class="header_li ms-5">
+                            <button class="buttone">
+                                <a class="header_li-a" href="#">Support</a>
+                            </button>
+                        </li>
+
+                        <button type="button" class="btn position-relative">
+                            <span class="text-light"><i class="fa-solid fa-trash"></i></span>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="korzna">
+                              0
+                              <span class="visually-hidden">unread messages</span>
+                            </span>
+                          </button>
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </header>
+
+    <main>
+        <section class="services mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="services__img" src="./images/chiken salat.png" width="500" height="400"
+                            alt="chikensalat">
+                        <div class="div_p">
+                            <p class="text-light services_p">Fish salad</p>
+                            <p class="text-light services_p">Fish Salad with Sweet</p>
+                            <p class="text-light services_p">Potatoes and Basil</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-6 mt-5">
+                        <h3 class="text-light">#1 OF THIS WEEK</h3>
+                        <h1 class="text-light">EAT HEALTHY BE HEALTHY</h1>
+                        <p class="text-light">Whitefish salad is a salad of smoked freshwater whitefish and mayonnaise.
+                            <br> Whitefish salad is a staple fare of Ashkenazi Jewish American cuisine, often <br> found
+                            at appetizing stores and Jewish delicatessens.Whitefish salad originated <br> in North
+                            America among Ashkenazi Jewish immigrants. Ashkenazi Jews discovered <br> that the
+                            freshwater whitefish, found in the Great Lakes, was similar to freshwater <br> whitefish
+                            found in Europe, and soon smoked freshwater whitefish became a <br> staple of Ashkenazi
+                            Jewish appetizing stores and delicatessens <br> and became an iconic example of Jewish
+                            American cuisine.</p>
+                        <button class="buttone-a">
+                            <a class="services_bt-a" href="#">Order Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 main_col">
+                        <img src="./images/photo tel.svg" width="100" height="100" alt="phototel">
+                        <b class="text-light d-block">24/7 Services</b>
+                        <p class="text-light">24/7 (двадцать четыре часа, семь дней в неделю) — термин, использующийся
+                            как правило при описании работы служб (сервисов)</p>
+
+                    </div>
+
+                    <div class="col-4 main_col">
+                        <img src="./images/car.svg" width="100" height="100" alt="car">
+                        <b class="text-light d-block">Fast Delivery</b>
+                        <p class="text-light">A car (or automobile) is a wheeled motor vehicle that is used for
+                            transportation. Most definitions of cars say that they run primarily on roads, seat one to
+                            eight people</p>
+                    </div>
+
+                    <div class="col-4 main_col">
+                        <img src="./images/posuda.svg" width="100" height="100" alt="posuda">
+                        <b class="text-light d-block">delicious food</b>
+                        <p class="text-light">Tableware is any dish or dishware used for setting a table, serving food,
+                            and dining. It includes cutlery, glassware, serving dishes, and other items for practical as
+                            well as</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mai">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6">
+                        <b class="text-light mai_b ms-5">About us</b>
+                        <p class="text-light mai_p ms-5">Pizza Italian: pittsa, Neapolitan: pittsə is a dish of Italian
+                            <br> origin consisting of a usually round, flat base of leavened <br> wheat-based dough
+                            topped with tomatoes, cheese, and <br> often various other ingredients such as various types
+                        </p>
+                        <button class="buttone-b ms-5">
+                            <a class="services_bt-a" href="#">Know more</a>
+                        </button>
+                    </div>
+
+                    <div class="col-6">
+                        <img class="ms-5" src="./images/pizza photo.png" width="300" height="200" alt="pizzaphoto">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="ma">
+            <div class="container">
+                <div class="row" id="row">
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="m">
+          <div class="container">
+            <div class="row">
+                
+                <div class="col-3 offset-3">   
+                    <img src="./images/50 sales.png" width="300" height="200" alt="50sales">
+                </div>
+
+                <div class="col-3 offset-3">
+                      <b class="text-light d-block mb-4">50% Discount <br> On New Products</b>
+                      <button class="buttone-b">
+                        <a class="services_bt-a" href="#">Go to new</a>
+                      </button>
+                </div>
+
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <section class="foot">
+        <footer>
+            <div class="container">
+                <h1 class="foot-h1 text-light">New Arrivals</h1>
+                <div class="row" id="rowa">
+                    <div class="col-4" offset="col-1">
+                        <img src="https://media.istockphoto.com/photos/bacon-burger-picture-id520215281?k=20&m=520215281&s=612x612&w=0&h=kD__ABaZrMo2DqW8huIMfuJ-GCW25pGK6KzgJ9bj394=" width="200" height="200" alt="rasiml">
+                        <b class="text-light d-block">Baacon Cheeseburger</b>
+                        <p class="text-light">Fast Food</p>
+                        <p class="text-light">$14.99</p>
+
+                        <div class="bg-dark">
+                            <button class="bg-dark buto mt-4">
+                                <span class="text-light"><i class="fa-solid fa-trash-can"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span class="${i} text-light"><i class="fa-solid fa-trash-arrow-up"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span><i class="fa-solid fa-thumbs-up"></i></span>
+                                <span><i class="fa-solid fa-thumbs-down"></i></span>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="col-3" offset="col-1">
+                        <img src="https://media.istockphoto.com/photos/doner-pizza-picture-id184342772" width="200" height="150" alt="rasiml">
+                        <b class="text-light d-block">Doner Pizza</b>
+                        <p class="text-light">Fast Food</p>
+                        <p class="text-light">$10.99</p>
+
+                        <div class="bg-dark">
+                            <button class="bg-dark buto mt-4">
+                                <span class="text-light"><i class="fa-solid fa-trash-can"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span class="${i} text-light"><i class="fa-solid fa-trash-arrow-up"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span><i class="fa-solid fa-thumbs-up"></i></span>
+                                <span><i class="fa-solid fa-thumbs-down"></i></span>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="col-3" offset="col-1">
+                        <img src="https://i.ytimg.com/vi/2HiXXnk5MLY/maxresdefault.jpg" width="200" height="150" alt="rasiml">
+                        <b class="text-light d-block">Mujskoy Kapriz Salad</b>
+                        <p class="text-light">Healthy Food</p>
+                        <p class="text-light">$6.99</p>
+
+                        <div class="bg-dark">
+                            <button class="bg-dark buto mt-4">
+                                <span class="text-light"><i class="fa-solid fa-trash-can"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span class="${i} text-light"><i class="fa-solid fa-trash-arrow-up"></i></span>
+                                 </button>
+                                 <button class="bg-dark buto  mt-4">
+                                 <span><i class="fa-solid fa-thumbs-up"></i></span>
+                                <span><i class="fa-solid fa-thumbs-down"></i></span>
+                                </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script src="./jQuery.js"></script>
+    <script src="./main.js"></script>
+    <script src="./иконка/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
